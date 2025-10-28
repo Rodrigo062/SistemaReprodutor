@@ -1,33 +1,46 @@
-<!-- CANVAS PARA PARTICULAS -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quiz Sistema Reprodutor Feminino</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- CANVAS PARTICULAS -->
 <canvas id="particles"></canvas>
 
 <!-- TELA INICIAL -->
-<div class="container fade-in" id="home-screen">
+<div class="container" id="home-screen">
   <div class="glass-card">
-    <h1 class="title">Sistema Reprodutor Feminino</h1>
-    <p class="subtitle">Teste seus conhecimentos! 🌷</p>
+    <h1 class="title">🌸 Sistema Reprodutor Feminino 🌸</h1>
+    <p class="subtitle">Teste seus conhecimentos!</p>
     <button id="start-btn" class="btn big-btn">Começar Quiz</button>
     <p class="creators">Criadores: Rodrigo, Isabela, Flávia, Thaynna e Mikahelly</p>
   </div>
 </div>
 
-<!-- TELA DO QUIZ -->
-<div class="container hidden fade-in" id="quiz-screen">
+<!-- TELA QUIZ -->
+<div class="container hidden" id="quiz-screen">
   <div class="top-bar">
     <button id="back-btn" class="back-btn">← Voltar</button>
   </div>
   <div class="glass-card">
-    <h2 id="question-text" class="question fade-in"></h2>
+    <h2 id="question-text" class="question"></h2>
     <div id="answer-buttons" class="btn-container"></div>
-    <button id="next-btn" class="btn hidden fade-in">Próxima Pergunta</button>
+    <button id="next-btn" class="btn hidden">Próxima Pergunta</button>
   </div>
 </div>
 
 <!-- TELA FINAL -->
-<div class="container hidden fade-in" id="end-screen">
+<div class="container hidden" id="end-screen">
   <div class="glass-card">
     <h2>🎉 Quiz Finalizado! 🎉</h2>
     <p id="score-text"></p>
     <button id="restart-btn" class="btn">Recomeçar</button>
   </div>
 </div>
+
+<script src="script.js"></script>
+</body>
+</html>
