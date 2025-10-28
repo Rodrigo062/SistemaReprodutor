@@ -94,7 +94,7 @@ document.addEventListener("DOMContentLoaded", () => {
       {text:"Endométrio",correct:true},{text:"Miométrio",correct:false},{text:"Epitélio",correct:false},{text:"Ovário",correct:false}]},
     {question:"O que é a puberdade nas meninas?",answers:[
       {text:"O momento em que o corpo começa a produzir leite",correct:false},{text:"A fase em que o corpo começa a desenvolver características adultas e capacidade reprodutiva",correct:true},
-      {text:"O período da menopausa",correct:false},{text:"O processo de fecundação",correct:false}]},
+      {text:"A período da menopausa",correct:false},{text:"O processo de fecundação",correct:false}]},
     {question:"Qual hormônio é responsável por preparar o útero para uma possível gravidez após a ovulação?",answers:[
       {text:"Estrogênio",correct:false},{text:"Progesterona",correct:true},{text:"Testosterona",correct:false},{text:"Adrenalina",correct:false}]},
     {question:"O que acontece com o endométrio quando não há fecundação?",answers:[
